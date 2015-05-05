@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Integrates client-side editors with Drupal.
+ */
+
+/**
+ * Implements hook_entity_info().
+ */
+
+//echo "vivek_module file ";
+
+function vivek_menu(){
+
+echo "vivek menu detail";
+
+}
+
+
+
+function vivek_settings(){
+echo "vivek setting detail";
+  
+}
+
+
+function vivek_get_form(){
+echo "vivek get form detail";
+  
+}

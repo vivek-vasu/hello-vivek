@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Installation functions for Wysiwyg module.
+ */
+
+/**
+ * Retrieve a list of input formats to associate profiles to.
+*/
+function vivek_install() {
+  //$formats = array();
+  $result = db_query("CREATE TABLE Persons (PersonID int,LastName varchar(255),FirstName varchar(255),Address varchar(255),
+    City varchar(255) ) ");
+  //return $formats;
+}
+
+
+
+
